@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "selfish",
+  "version": "1.0",
+  "name": "Selfish",
+  "description": "Shows your own name tag.",
+  "authors": [
+    "DevPieter"
+  ],
+  "contact": {
+    "homepage": "https://devpieter.nl/",
+    "sources": "https://github.com/DevPieter/Selfish"
+  },
+  "license": "MIT",
+  "icon": "assets/selfish/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "nl.devpieter.selfish.Selfish"
+    ]
+  },
+  "mixins": [
+    "selfish.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+  }
+}
